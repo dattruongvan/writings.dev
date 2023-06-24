@@ -121,3 +121,66 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+#pagination {
+    margin: 78px 312px;
+    justify-content: center;
+    display: flex;
+    color: #909090;
+    font-family: Recursive;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#pagination ul {
+    list-style: none;
+    display: flex;
+}
+
+#pagination ul li {
+    padding: 8px 14px;
+}
+
+#pagination ul li:first-child {
+    margin-left: 20px;
+}
+
+#pagination ul li:last-child {
+    margin-right: 20px;
+}
+
+#pagination ul li:nth-child(2) {
+    color: #FF7575;
+    border-top: 3px solid #FF7575;
+}
+
+#pagination button {
+    background-color: transparent;
+    border: none;
+    color: #909090;
+    font-family: Recursive;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#footer {
+    margin: 30px 312px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Segoe UI';
+}
+
+#footer .highlight {
+    padding: 2px;
+    background-color: #4699E0;
+    border-radius: 8px;
+}
